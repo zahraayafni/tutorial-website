@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Membuat Website</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<style type="text/css">
+		body {
+			background-image: url("../assets/my-bg.jpg");
+			background-size: cover;
+		}
+		h1 {
+			color: red;
+			text-align: center;
+		}
+
+		h2 {
+			color: blue;
+		}
+
+		h3 {
+			color: #373737;
+		}
+		#myBox {
+			width: 40px;
+			height: 40px;
+			background-color: yellow;
+			position: relative;
+		}
+	</style>
+</head>
+<body>
+	<!-- <h1 style="color: blue; font-size: 96px;">Ini heading 1</h1> -->
+	<h1>Ini heading 1</h1>
+	<h2>Ini heading 2</h2>
+	<h3>Ini heading 3</h3>
+	<h4>Ini heading 4</h4>
+	<h5>Ini heading 5</h5>
+	<h6>Ini heading 6</h6>
+	<p>Tulisan ini contoh teks paragraf.<br>tag br tujuannya untuk membuat baris baru.</p>
+
+	<button onclick="myMove()">Animate</button>
+	<div id="myBox"></div>
+	<script type="text/javascript" src="script.js"></script>
+	<!-- <img src="../assets/my-bg.jpg" width="100%"> -->
+	<!-- <script type="text/javascript">
+		function myMove() {
+		  var elem 	= document.getElementById("myBox");   
+		  var pos 	= 0;
+		  var id 	= setInterval(frame, 10);
+		  function frame() {
+		    if (pos == 200) {
+		      clearInterval(id);
+		    } else {
+		      pos++; 
+		      elem.style.top = pos + 'px'; 
+		      elem.style.left = pos + 'px'; 
+		    }
+		  }
+		}
+		// window.onload = myMove;
+	</script> -->
+</body>
+</html>
